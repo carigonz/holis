@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+  background-color: tomato;
+  font-family: 'Nunito', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+
+}
+a:hover{
+  color:aquamarine
+}
+
+p {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 107, 121, 1) 19%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+img {
+  width: 400px;
+}
+
+.pepe {
+  background-color: teal;
+  font-size: 25px;
+  color: tan;
+}
+
+#mi-lista li {
+  color: thistle;
+}
+
+#mi-lista li:nth-child(3) {
+  color: brown;
+}
+
+.pepe {
+  color: red;
+}
